@@ -1,0 +1,48 @@
+.ProductCard {
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	align-content: center;
+	justify-content: left;
+	padding: 0px;
+	margin: 10px;
+	padding: 7px;
+
+	background-color: white;
+
+	img {
+		width: 20vw;
+		height: 20vw;
+	}
+
+	h3 {
+		margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		width: 20vw;
+		color: rgba(36, 55, 69, 100%);
+		font-family: "Playfair Display", "Times New Roman", serif;
+		background-color: white;
+	}
+	ul {
+		padding: 0px;
+		margin: 0px;
+		width: 20vw;
+		background-color: white;
+	}
+	li {
+		list-style: none;
+		padding-bottom: 5px;
+		margin: 0;
+		align-content: left;
+		font-family: Arial, Helvetica, sans-serif;
+		color: rgba(36, 55, 69, 100%);
+		background-color: white;
+	}
+}
+
+.cardInfo {
+	display: flex;
+}

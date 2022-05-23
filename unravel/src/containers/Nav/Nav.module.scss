@@ -1,0 +1,41 @@
+.Nav {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	background-color: #f8f6f2;
+	border-bottom: 1px solid rgba(36, 55, 69, 75%);
+
+	.Shop {
+		background-color: rgba(238, 220, 215, 100%);
+		padding: 10px 30px;
+
+		a {
+			color: rgb(221, 218, 218);
+		}
+	}
+	a {
+		text-decoration: none;
+		color: rgba(36, 55, 69, 100%);
+	}
+}
+
+.NavGroup {
+	width: 35vw;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	align-items: center;
+}
+
+.HomeLogo {
+	justify-content: baseline;
+	align-items: flex-start;
+	padding: 20px;
+
+	a {
+		font-size: 200%;
+		color: rgba(209, 152, 144, 100%);
+		font-family: "Playfair Display", "Times New Roman", serif;
+		font-weight: bold;
+	}
+}

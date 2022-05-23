@@ -1,0 +1,19 @@
+.HomeProducts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #f8f6f2;
+
+	// & > * {
+
+	// }
+}
+
+h2 {
+	background-color: #f8f6f2;
+	margin: 0px;
+	padding: 20px 30px;
+	font-size: 200%;
+	color: rgba(36, 55, 69, 100%);
+	font-family: "Playfair Display", "Times New Roman", serif;
+}
